@@ -12,7 +12,7 @@
 <div class="width-100 search-panel">
   <div class="container">
  <div class="width-20">
-    <img src="images/logo.png" class="logo" style="max-width: 40px;">
+    <img src="images/logo-2.png" class="logo" style="max-height: 40px;">
  </div>
     <div class="width-50">
       <input class="search-textbox" type="text" Placeholder="Search for products, brand and more">
