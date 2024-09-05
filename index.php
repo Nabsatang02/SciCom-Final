@@ -15,7 +15,7 @@
     <img src="images/logo-2.png" class="logo" style="max-height: 40px;">
  </div>
     <div class="width-50">
-      <input class="search-textbox" type="text" Placeholder="Search for products, brand and more">
+    <input class="search-textbox" type="text" placeholder="ค้นหาสินค้าในเว็บไซต์">
       <button class="search-button">
         <i class="fa fa-search" aria-hidden="true"></i>
       </button>
@@ -24,15 +24,15 @@
       <ul class="cart-sect">
         <li>
           <i class="fa fa-heart-o" aria-hidden="true"></i>
-          <a class="head1mr" href="#">Whislist</a>
+          <a class="head1mr" href="#">เกี่ยวกับเรา</a>
         </li>
         <li>
           <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-          <a href="#">Login & Signup</a>
+          <a href="#">เข้าสู่ระบบ</a>
         </li>
         <li>
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          <a href="#">Cart (0)</a>
+          <a href="#"> ตระกร้าสินค้า (0)</a>
         </li>
       </ul>
     </div>
