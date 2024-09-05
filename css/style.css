@@ -131,3 +131,20 @@ html {
     color: #ffffff;
   }
   /**********  Logo and Search Panel CSS Code Ends  **********/
+
+  /**********  Main Menu CSS Code Starts  **********/
+.main-menu {
+    list-style: none;
+  }
+  .main-menu a {
+    font-weight: 500;
+    color: #2b304a;
+    font-size: 17px;
+    font-family: Roboto, sans-serif, arial;
+    text-decoration: none;
+  }
+  .main-menu li {
+    float: left;
+    padding: 12px 20px;
+  }
+  /**********  Main Menu CSS Code Ends  **********/
