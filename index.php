@@ -110,12 +110,12 @@
       </ul>
     </div>
     <div class="width-25">
-      <h2 class="quicklink-heading">GET IN TOUCH</h2>
+      <h2 class="quicklink-heading">ติดต่อเรา</h2>
       <ul class="get-in-touch">
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> E-MAIL:<a href="#" class="footer-e-mail"> info@placeholder.com</a></li>
+        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> อีเมล:<a href="#" class="footer-e-mail"> support@tanaka.shop</a></li>
         <li><i class="fa fa-headphones" aria-hidden="true"></i> Place Holder</li>
         <li><i class="fa fa-fax" aria-hidden="true"></i> Place Holder</li>
-        <li><i class="fa fa-globe" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.placeholder.com</a></li>
+        <li><i class="fa fa-globe" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.tanaka.shop</a></li>
       </ul>
       <ul class="social-media">
         <li><a href="#"><img src="images/icon-facebook.png"></a></li>
@@ -130,6 +130,6 @@
 
 <!-- Footer-bottom Section HTML Code STARTS -->
 <div class="width-100 footer2-bacbor">
-  <p class="footer2-content">Copyright © 2024, placeholder.com. All Rights Reserved</p>
+  <p class="footer2-content">© 2024 TanakaShop_TH. All Rights Reserved</p>
 </div>
 <!---------- Footer-bottom Section HTML Code Ends --------->
