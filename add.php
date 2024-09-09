@@ -79,7 +79,7 @@
 
     <section>
         <div class="form-container">
-            <form action="adding.php" method="POST">
+            <form action="php/adding.php" method="POST">
                 <h3>รายละเอียดสินค้า</h3>
                 <input type="text" name="ProductName" placeholder="ชื่อสินค้า">
                 <input type="text" name="ProductDescription" placeholder="คำอธิบายสินค้า">
