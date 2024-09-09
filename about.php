@@ -47,6 +47,19 @@
         .faq p {
             margin-bottom: 20px;
         }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f13f31;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #d12e25;
+        }
     </style>
 </head>
 <body>
@@ -87,6 +100,10 @@
         <h4>5. มีบริการคืนสินค้าหรือไม่?</h4>
         <p>เราไม่รับคืนเครื่องรางที่ถูกใช้แล้ว เนื่องจากเป็นสินค้าที่เกี่ยวข้องกับความเชื่อส่วนบุคคล แต่หากสินค้ามีปัญหาหรือชำรุด เรามีบริการ<a href="exchange.php" style="text-decoration: none;">เปลี่ยนสินค้าให้ใหม่</a></p>
     </section>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+            <a href="index.php" class="button">กลับไปยังหน้าหลัก</a>
+        </div>
 
 </body>
 </html>

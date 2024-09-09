@@ -28,11 +28,11 @@
         </li>
         <li>
           <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-          <a href="#">เข้าสู่ระบบ</a>
+          <a href="add.php">เข้าสู่ระบบ</a>
         </li>
         <li>
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          <a href="#"> ตระกร้าสินค้า (0)</a>
+          <a href="construction.php"> ตระกร้าสินค้า (0)</a>
         </li>
       </ul>
     </div>
@@ -82,31 +82,31 @@
     <div class="width-25">
       <h2 class="quicklink-heading">Account Detail</h2>
       <ul class="quicklink-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Cart</a></li>
-        <li><a href="#">Checkout</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About us</a></li>
+        <li><a href="construction.php">Search</a></li>
+        <li><a href="construction.php">Cart</a></li>
+        <li><a href="construction.php">Checkout</a></li>
       </ul>
     </div>
     <div class="width-25">
       <h2 class="quicklink-heading">Quick Link</h2>
       <ul class="quicklink-menu">
-        <li><a href="#">My Profile</a></li>
-        <li><a href="#">Change Password</a></li>
-        <li><a href="#">Order History</a></li>
-        <li><a href="#">My Whislist</a></li>
-        <li><a href="#">My Cashback</a></li>
+        <li><a href="construction.php">My Profile</a></li>
+        <li><a href="construction.php">Change Password</a></li>
+        <li><a href="construction.php">Order History</a></li>
+        <li><a href="construction.php">My Whislist</a></li>
+        <li><a href="exchange.php">นโยบายการคืนสินค้า</a></li>
       </ul>
     </div>
     <div class="width-25">
       <h2 class="quicklink-heading">Quick Link</h2>
       <ul class="quicklink-menu">
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Faq</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Download App</a></li>
-        <li><a href="#">Refer & Earn Cashback</a></li>
+        <li><a href="construction.php">Login</a></li>
+        <li><a href="about.php">Faq</a></li>
+        <li><a href="construction.php">Contact us</a></li>
+        <li><a href="construction.php">Download App</a></li>
+        <li><a href="construction.php">Refer & Earn Cashback</a></li>
       </ul>
     </div>
     <div class="width-25">

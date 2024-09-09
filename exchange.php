@@ -41,6 +41,19 @@
             padding: 20px;
             border-radius: 8px;
         }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f13f31;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #d12e25;
+        }
     </style>
 </head>
 <body>
@@ -82,6 +95,10 @@
         <h4>3. หากไม่ได้รับสินค้าที่ต้องการเปลี่ยน สามารถทำอย่างไร?</h4>
         <p>หากยังไม่ได้รับสินค้าที่ต้องการเปลี่ยนภายในระยะเวลาที่กำหนด กรุณาติดต่อฝ่ายบริการลูกค้าของเราทันทีเพื่อให้ความช่วยเหลือเพิ่มเติม</p>
     </section>
+
+        <div style="text-align: center; margin-bottom: 20px;">
+            <a href="index.php" class="button">กลับไปยังหน้าหลัก</a>
+        </div>
 
 </body>
 </html>
