@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -33,6 +32,19 @@
             line-height: 1.6;
             color: #666;
         }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f13f31;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #d12e25;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +56,9 @@
     <section>
         <h2>หน้านี้ยังอยู่ระหว่างการพัฒนา</h2>
         <p>กรุณากลับมาตรวจสอบใหม่ในภายหลัง ขอบคุณที่ให้ความสนใจ</p>
+        <a href="index.php" class="button">กลับไปยังหน้าหลัก</a>
     </section>
 
 </body>
 </html>
+```
