@@ -10,7 +10,7 @@ include('config.php');
 mysqli_query($con,"INSERT INTO `product` (`list`,`ProductName`,`ProductDescription`,`ProductPrice`,`ProductRating`) VALUES (NULL,'$ProductName','$ProductDescription','$ProductPrice','$ProductRating')");
 
 echo "<script language = 'javascript'>";
-echo 'location="index.php"';
+echo 'location="../index.php"';
 echo "</script>";
 
 ?>
