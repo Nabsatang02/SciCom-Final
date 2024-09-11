@@ -99,15 +99,18 @@
                       <div><strong>คะแนนสินค้า:</strong> '.$data['ProductRating'].'</div>
                   </div>
               </div>
-              <div class="card-footer">
-                  <a class="btn btn-warning" href="edit.php?list='.$data['list'].'" role="button">Edit</a>
-                  <a class="btn btn-danger" href="delete.php?list='.$data['list'].'" role="button">Delete</a>
-              </div>  
+
           </div>
       </div>';
   }
 ?>
 </div>
+
+<!-- <div class="card-footer">
+                  <a class="btn btn-warning" href="edit.php?list='.$data['list'].'" role="button">Edit</a>
+                  <a class="btn btn-danger" href="delete.php?list='.$data['list'].'" role="button">Delete</a>
+              </div>  
+               -->
 <!---------- Info HTML Code Ends --------->
 
 <!-- Footer-Section HTML Code STARTS -->
