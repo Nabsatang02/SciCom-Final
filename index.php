@@ -1,9 +1,11 @@
 <!---------- Meta HTML Starts --------->
 <html>
 <head>
-    <title>Website Site</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <title>Tanaka Japan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style-index.css">
+  <link rel="stylesheet" href="css/style-info.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <!---------- Meta HTML Ends --------->
@@ -76,6 +78,38 @@
 </div> -->
 <!---------- Slider HTML Code Ends --------->
 
+<!---------- Info HTML Code Starts --------->
+<div class="container">        
+<?php 
+  include('php/config.php');
+
+  // Fetch all students from the database
+  $query = mysqli_query($con, "SELECT * FROM product");
+
+  while ($data = mysqli_fetch_array($query)) {
+      echo '
+      <div class="col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <div class="info-row">
+                      <div><strong>รหัสสินค้า:</strong> '.$data['ProductID'].'</div>
+                      <div><strong>ชื่อสินค้า:</strong> '.$data['ProductName'].'</div>
+                      <div><strong>คำอธิบายสินค้า:</strong> '.$data['ProductDescription'].'</div>
+                      <div><strong>ราคา:</strong> '.$data['ProductPrice'].'</div>
+                      <div><strong>คะแนนสินค้า:</strong> '.$data['ProductRating'].'</div>
+                  </div>
+              </div>
+              <div class="card-footer">
+                  <a class="btn btn-warning" href="edit.php?list='.$data['list'].'" role="button">Edit</a>
+                  <a class="btn btn-danger" href="delete.php?list='.$data['list'].'" role="button">Delete</a>
+              </div>  
+          </div>
+      </div>';
+  }
+?>
+</div>
+<!---------- Info HTML Code Ends --------->
+
 <!-- Footer-Section HTML Code STARTS -->
 <div class="width-100 margin-top-50 footer">
   <div class="container">
@@ -112,7 +146,7 @@
     <div class="width-25">
       <h2 class="quicklink-heading">ติดต่อเรา</h2>
       <ul class="get-in-touch">
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> อีเมล:<a href="#" class="footer-e-mail"> support@tanaka.shop</a></li>
+        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> อีเมล:<a href="mailto:support@tanaka.shop" class="footer-e-mail" style="text-decoration: none;"> support@tanaka.shop</a></li>
         <li><i class="fa fa-headphones" aria-hidden="true"></i> Place Holder</li>
         <li><i class="fa fa-fax" aria-hidden="true"></i> Place Holder</li>
         <li><i class="fa fa-globe" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.tanaka.shop</a></li>
