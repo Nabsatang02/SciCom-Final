@@ -146,7 +146,7 @@
     <div class="width-25">
       <h2 class="quicklink-heading">ติดต่อเรา</h2>
       <ul class="get-in-touch">
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> อีเมล:<a href="#" class="footer-e-mail"> support@tanaka.shop</a></li>
+        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> อีเมล:<a href="mailto:support@tanaka.shop" class="footer-e-mail" style="text-decoration: none;"> support@tanaka.shop</a></li>
         <li><i class="fa fa-headphones" aria-hidden="true"></i> Place Holder</li>
         <li><i class="fa fa-fax" aria-hidden="true"></i> Place Holder</li>
         <li><i class="fa fa-globe" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.tanaka.shop</a></li>
