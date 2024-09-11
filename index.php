@@ -78,6 +78,38 @@
 </div> -->
 <!---------- Slider HTML Code Ends --------->
 
+<!---------- Info HTML Code Starts --------->
+<div class="container">        
+<?php 
+  include('php/config.php');
+
+  // Fetch all students from the database
+  $query = mysqli_query($con, "SELECT * FROM product");
+
+  while ($data = mysqli_fetch_array($query)) {
+      echo '
+      <div class="col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <div class="info-row">
+                      <div><strong>รหัสสินค้า:</strong> '.$data['ProductID'].'</div>
+                      <div><strong>ชื่อสินค้า:</strong> '.$data['ProductName'].'</div>
+                      <div><strong>คำอธิบายสินค้า:</strong> '.$data['ProductDescription'].'</div>
+                      <div><strong>ราคา:</strong> '.$data['ProductPrice'].'</div>
+                      <div><strong>คะแนนสินค้า:</strong> '.$data['ProductRating'].'</div>
+                  </div>
+              </div>
+              <div class="card-footer">
+                  <a class="btn btn-warning" href="edit.php?list='.$data['list'].'" role="button">Edit</a>
+                  <a class="btn btn-danger" href="delete.php?list='.$data['list'].'" role="button">Delete</a>
+              </div>  
+          </div>
+      </div>';
+  }
+?>
+</div>
+<!---------- Info HTML Code Ends --------->
+
 <!-- Footer-Section HTML Code STARTS -->
 <div class="width-100 margin-top-50 footer">
   <div class="container">
